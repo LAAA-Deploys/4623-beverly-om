@@ -598,9 +598,15 @@
   <section data-label="16 Land Comp Pricing">
     <div class="frame cream-2" style="padding: 56px var(--pad-x) 60px;">
       <div class="eyebrow"><span class="dot"></span><span>Price per Land SF · Subject vs. Comps</span></div>
-      <h2 class="h-title" style="margin-top: 16px; font-size: 60px;">A basis less than half the comp average.</h2>
-      <div style="height: 20px;"></div>
-      <div style="max-width: 1700px;">
+      <h2 class="h-title" style="margin-top: 16px; font-size: 52px;">A basis less than half the comp average.</h2>
+      <div style="height: 16px;"></div>
+      <style>
+        #land-chart .bar-row { margin-bottom: 6px; }
+        #land-chart .bar-label { width: 300px; font-size: 18px; white-space: nowrap; overflow: hidden; }
+        #land-chart .bar-value { width: 240px; font-size: 20px; white-space: nowrap; }
+        #land-chart .bar-track { height: 22px !important; }
+      </style>
+      <div id="land-chart" style="max-width: 1700px;">
         <div class="bar-row" style="margin-bottom: 8px;">
           <div class="bar-label" style="color: var(--accent); font-weight:600;">★ Subject · Beverly Blvd</div>
           <div class="bar-track" style="height: 26px;"><div class="bar-fill" style="width: 33%;"></div></div>
